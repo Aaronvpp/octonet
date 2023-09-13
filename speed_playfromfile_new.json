@@ -1,0 +1,32 @@
+{
+    "play_arg": {
+        "sampling_rate": 48000,
+        "duration": 80,
+        "amplitude": 0.1,
+        "nchannels": 2,
+        "blocksize": 768,
+        "buffersize": 32,
+        "modulation": true,
+        "idle": 0,
+        "fc": 20250,
+        "wave": "Kasami",
+        "load_dataplay": true,
+        "dataplay_path": "./Audio_Collector/data_play/",
+        "dataplay_name": "Kasami_63_0_40_true_true_512_20250_1_256_2.5.wav"
+    },
+    "global_arg": {
+        "delay": 2,
+        "task": "speed",
+        "save_root": "./Audio_Collector/data/",
+        "set_save": true,
+        "set_playAndRecord": true
+    },
+    "device_arg": {
+        "input_device": "default",
+        "output_device": "default"
+    },
+    "process_arg": {
+        "num_topK_subcarriers": 50,
+        "windows_time": 2
+    }
+}
